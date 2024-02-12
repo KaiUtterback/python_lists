@@ -67,7 +67,11 @@ fifth_to_tenth = temperatures [4:10]
 print("The fifth day to the tenth day of the week, temperatures will be", fifth_to_tenth)
 
 # Question 4 List Comprehension and Membership Operators
+print(" ")
 
 # Task 1: use a list comprehension to create a new list containing only even numbers
 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+even = [ num for num in numbers if num % 2 == 0]
+print("These numbers in the list are even:", even)
