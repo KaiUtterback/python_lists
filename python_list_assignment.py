@@ -75,3 +75,10 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 even = [ num for num in numbers if num % 2 == 0]
 print("These numbers in the list are even:", even)
+
+# Task 2: use a list comprehension to create a new list containing numbers greater than 5
+
+new_numbers = [new for new in numbers if new > 5]
+print("Numbers greater than 5:", new_numbers)
+
+# Task 3: 
