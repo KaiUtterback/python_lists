@@ -95,8 +95,27 @@ else:
 # Task 1: Given the List:
 # Create a new list from OG list where each element is ia dictionary with keys: name, grade, and activity
 # and the corresponding values from the provided lists.
-    
+
 students = ["John", "Doe", "Jane", "Smith"]
 grades = [85, 90, 78, 88]
 activities = ["Football", "Music", "Art", "Dance"]
+
+student_info = []
+
+for index in range(len(students)):
+    
+    if grades[index] >= 80: # Task 2
+        
+        student_dict = {
+            "Name": students[index],
+            "Grade": grades[index],
+            "Activity": activities[index], 
+            "Status": "Passed" # Task 3
+        }
+    
+        student_info.append(student_dict)
+
+print(student_info)
+
+
 
