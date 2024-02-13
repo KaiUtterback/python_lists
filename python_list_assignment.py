@@ -81,4 +81,22 @@ print("These numbers in the list are even:", even)
 new_numbers = [new for new in numbers if new > 5]
 print("Numbers greater than 5:", new_numbers)
 
-# Task 3: 
+# Task 3: check to see if 7 is in the original numbers list
+
+seven = 7 in numbers
+
+if seven == True:
+    print("Seven is in the original numbers list")
+else: 
+    print("Seven is not in the original numbers list")
+
+# Question 5 Deep Dive in to Lists
+    
+# Task 1: Given the List:
+# Create a new list from OG list where each element is ia dictionary with keys: name, grade, and activity
+# and the corresponding values from the provided lists.
+    
+students = ["John", "Doe", "Jane", "Smith"]
+grades = [85, 90, 78, 88]
+activities = ["Football", "Music", "Art", "Dance"]
+
